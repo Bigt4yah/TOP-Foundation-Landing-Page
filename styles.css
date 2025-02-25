@@ -1,0 +1,130 @@
+.header, .section1{
+    display: flex;
+    background-color: #1F2937;
+    font: Roboto;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    
+}
+
+.header-left{
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-right{
+    display: flex;
+    justify-content: right;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    align-items: center;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+#Awesome-Heading{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.section1{
+    gap: 200px;
+}
+
+
+.section1-right{
+    align-content: center;
+    background-color: gray;
+    
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#section2-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#missing-img{
+    border-radius: 25px;
+    border: 2px solid blue;
+}
+
+.img-template{
+    display: flex;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    justify-content: right;
+}
+
+#quote-text{
+    font-size: 36px;
+    font-style: light;
+    color: #1F2937;
+}
+
+#author-span{
+    display:flex;
+    font-weight: 900;
+    justify-content: right;
+}
+
+#author{
+    font-weight: 900;
+}
+
+.section4{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.section4-container{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section5{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
